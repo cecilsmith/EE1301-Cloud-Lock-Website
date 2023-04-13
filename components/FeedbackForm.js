@@ -6,7 +6,7 @@ export default function FeedbackForm() {
         className={styles.form}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        name="feedback"
+      name="lockform"
         method="POST"
         action="/success"
       >
