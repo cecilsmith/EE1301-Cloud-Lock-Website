@@ -10,23 +10,28 @@ export default function FeedbackForm() {
         method="POST"
         action="/success"
       >
-      <input type="hidden" name="form-name" value="lockform" />
+        <input type="hidden" name="form-name" value="feedback" />
         <p className={styles.hidden}>
             <label>
             Don’t fill this out if you’re human: <input name="bot-field" />
             </label>
         </p>
+  
+        <label htmlFor="name">Name</label>
+        <input id="name" className={styles['form-field']} type="text" name="name" />
 
       <label htmlFor="password">Password</label>
       <input id="password" className={styles['form-field']} type="password" name="password" required />
 
-      <label>Would you like to lock or unlock the lock?
-        <select name="lockState[]" required>
+      <label>Your Role:
+        <select name="lockState[]">
           <option value="unlock">Unlock</option>
           <option value="lock">Lock</option>
         </select>
       </label>
 
+        <label htmlFor="feedback">What is your feedback?</label>
+        <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )
