@@ -4,25 +4,31 @@
 
 This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is a reference on how to integrate commonly used features within Netlify for Next.js. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a51ddc90-9548-4429-b5ab-0577e9960b45/deploy-status)](https://app.netlify.com/sites/cloud-lock/deploys)
+
 ## Table of Contents:
 
-- [Getting Started](#getting-started)
-- [Deploy to Netlify](#deploy-to-netlify)
-  - [Deploy using the Netlify CLI](#deploy-using-the-netlify-cli)
-  - [Running Locally](#running-locally)
-- [Forms](#forms)
-  - [Adding a Custom Submission Page](#adding-a-custom-submission-page)
-  - [Blocking Bot Spam with a Honeypot Field](#blocking-bot-spam-with-a-honeypot-field)
-  - [Forms Resources](#forms-resources)
-- [Netlify Functions](#netlify-functions)
-  - [Functions Resources](#functions-resources)
-- [Redirects](#redirects)
-  - [Redirect Resources](#redirect-resources)
-- [Next.js Toolbox Template Video Walkthrough](#nextjs-toolbox-template-video-walkthrough)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+- [Next.js Toolbox Template](#nextjs-toolbox-template)
+  - [Table of Contents:](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Deploy to Netlify](#deploy-to-netlify)
+    - [Deploy using the Netlify CLI:](#deploy-using-the-netlify-cli)
+    - [Running Locally](#running-locally)
+    - [Deployment Resources](#deployment-resources)
+  - [Forms](#forms)
+    - [Adding a custom submission page](#adding-a-custom-submission-page)
+    - [Blocking bot spam with a honeypot field](#blocking-bot-spam-with-a-honeypot-field)
+    - [Forms Resources](#forms-resources)
+  - [Netlify Functions](#netlify-functions)
+    - [Functions Resources](#functions-resources)
+  - [Redirects](#redirects)
+    - [Example](#example)
+    - [Redirect Resources](#redirect-resources)
+  - [Next.js Toolbox Template Video Walkthrough](#nextjs-toolbox-template-video-walkthrough)
+  - [Testing](#testing)
+    - [Included Default Testing](#included-default-testing)
+    - [Removing Renovate](#removing-renovate)
+    - [Removing Cypress](#removing-cypress)
 
 ## Getting Started
 
