@@ -1,6 +1,7 @@
 import styles from './LockForm.module.css'
 
 export default function LockForm() {
+
   return (
     <form
       className={styles.form}
